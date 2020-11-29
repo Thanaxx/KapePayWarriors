@@ -1,0 +1,33 @@
+.aboutContainer{
+    min-height: 100vh;
+    padding: 60px 100px;
+    background: linear-gradient(to left, #475A47, #3F3D56);
+}
+.aboutContainer h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0;
+    background:linear-gradient(to left, #ffffff, #2D332D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.aboutDescription p{
+    font-size: 19px;
+    text-align: justify;
+    padding-bottom: 30px;
+    color: rgb(187, 187, 187);
+    font-weight: lighter;
+}
+.aboutBody{
+    display: flex;
+}
+.aboutDescription{
+    flex: 2;
+}
+.imageAbout{
+    flex: 1;
+}
+.imageAbout img{
+    width: 100%;
+}
+

@@ -1,0 +1,215 @@
+@media screen and (max-width: 900px){
+    .cpage{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .coverpage img{
+        display: none
+    }
+    .navigationBar{
+        position: absolute;
+        width: 0;
+        height: 0px;
+        box-shadow: none;
+    }
+    .page-title h1{
+        font-size: 70px;
+    }
+    .page-title p{
+        font-size: 25px;
+    }
+    .page-title{
+        margin: 0;
+    }
+    .cover-logo img{
+        display: block;
+        padding: 0;
+        width: 100%;
+        height: 250px;
+        margin: 0;
+    }
+    .view{
+        display: none;
+        transition: 10s;
+    }
+    
+/*FOR THE BURGER MENU * animated menu bar*/
+    .menuBar{
+        position: fixed;
+        top: 13px;
+        left: 13px;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .menuBar a{
+        color: #5f8f5e;
+    }
+    .menuBarLinks{
+        background-color: #426d5f;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        margin: auto;
+        clip-path: circle(100px at -25% 10%);
+        -webkit-clip-path: circle(100px at -25% 5%);
+        transition: all 1s ease-out;
+    }
+    .menuBarLinks.open{
+        clip-path: circle(1100px at -20% 10%);
+        -webkit-clip-path: circle(1100px at -20% 5%);
+    }
+
+    .menuBarLinks li{
+        margin: 65px 0;
+        list-style: none;
+        opacity: 0;
+    }
+    .menuBarLinks li:nth-child(1){
+        transition: all 0.5s ease 0.2s;
+    }
+    .menuBarLinks li:nth-child(2){
+        transition: all 0.5s ease 0.4s;
+    }
+    .menuBarLinks li:nth-child(3){
+        transition: all 0.5s ease 0.5s;
+    }
+    .menuBarLinks li:nth-child(4){
+        transition: all 0.5s ease 0.6s;
+    }
+    .menuBarLinks li:nth-child(5){
+        transition: all 0.5s ease 0.8s;
+    }
+    .menuBarLinks li:nth-child(6){
+        transition: all 0.5s ease 0.9s;
+    }
+    li.fade{
+        opacity: 1;
+    }
+
+    .menuBarLinks a{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+/*SERVICES*/
+    .serviceImages img{
+        width: 100%;
+        height: 200px;
+    }
+    .servicesPage h1{
+        text-align: center;
+        font-size: 30px;
+        padding: 30px 0 0 0;
+    }
+    .serviceImages{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .serviceA{
+        margin-bottom: 20px;
+    }
+    .serviceB{
+        margin-bottom: 20px;
+    }
+    .serviceC{
+        margin-bottom: 20px;
+    }
+
+/*ABOUT*/
+    .aboutBody{
+        flex-direction: column;
+    }
+    .aboutContainer{
+        padding: 60px 20px;
+    }
+    .imageAbout img{
+        display: none;
+    }
+    .aboutDescription p{
+        font-size: 17px;
+    }
+
+/*CONTACTS*/
+    .contactContainer img{
+        display: none;
+    }
+    .contact-forms{
+        display: block;
+        position: relative;
+        bottom: 10px;
+        left: 0px;
+    }
+    .contSub{
+        width: 80%;
+        padding: 7px;
+    }
+    .contactInfos{
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+    }
+    .contactContainer{
+        padding: 40px;
+        margin-top: 30px;
+
+    }
+
+
+/*COMMUNITY*/
+
+    .communityContainer{
+        display: none;
+    }
+
+    /*Log in*/
+    .login-box{ 
+        width: 50%;
+    }
+    .login-box-details{
+        width: 50%;
+    }
+    .patientInfo{
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 900px){
+    .login-box{ 
+        width: 80%;
+    }
+    .login-box-details{
+        width: 80%;
+    }
+    .patientInfo{
+        width: 80%;
+        margin-top: 10px;
+    }
+    input[type=text], input[type=date], input[type=email], input[type=number]{
+        padding: 4px;
+        margin: 2px 0;
+        font-size: 13px;
+    }
+    .patientInfo label{
+        padding: 2px 0;
+        float: left;
+        font-size: 10;
+    }
+}
+
+
+    
+    @media screen and (min-width: 800px){
+    .respMenuBar{
+        display: none;
+    }
+}
+
+
+

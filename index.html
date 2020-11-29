@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./coverpage.css">
+    <link rel="stylesheet" type="text/css" href="./Services.css">
+    <link rel="stylesheet" type="text/css" href="./about.css">
+    <link rel="stylesheet" type="text/css" href="./community.css">
+    <link rel="stylesheet" type="text/css" href="./contacts.css">
+    <link rel="stylesheet" type="text/css" href="./pshop.css">
+    <link rel="stylesheet" type="text/css" href="./responsive.css">
+    <link rel="stylesheet" type="text/css" href="./cssFontawesome/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./webfonts/fa-brands-400.eot">
+    <title>MEDCARE</title>
+</head>
+<body>
+    <div class="landingPage">
+        <!--TOP PAGE-->
+        <div class="navigationBar">
+            <div class="nav-logo"><img src="./images/MasKINGGG.jpg" alt="MC Logo"></div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#" class="products">Products</a>
+                <a href="#serve">Services</a>
+                <a href="#boutus">About Us</a>
+                <a href="#contact" id="cont">Contact Us</a>
+        </div>
+
+        <!--HAMBURGER MENU-->
+        <div class="respMenuBar">
+            <div class="menuBar">
+                <a href="#"><i class="fa fa-2x fa-bars"></i></a>
+            </div>
+
+            <ul class="menuBarLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="products">Product</a></li>
+                <li><a href="#serve">Services</a></li>
+                <li><a href="#boutus">About Us</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!--COVER PAGE-->
+    <div class="coverpage">
+        <img src="./images/ntitled.png" alt="">
+
+        <div class="cpage">
+            <div class="page-title">
+                <h1 id="tt" class="typeMe animate">MEDCARE</h1>
+                <p>we do online medical check up</p>
+                <div class="cover-buttons">
+                    <button class="checkup-btn">Start</button>
+                    <a href="#process"><button class="lmore-btn">Learn more</button></a>
+                </div>
+            </div>
+    
+            <div class="cover-logo">
+                <img src="./images/undraw_medical_care_movn (2).svg" alt="imgg">
+            </div>
+    
+        </div>
+    </div>
+
+
+    <!--LOG IN & SIGN UP-->
+        <div class="login-container">
+            <div class="login-box">
+                <div class="exitModal">
+                    <a href="#" class="backToMain"><i class="fas fa-2x fa-angle-left"></i></a>
+                </div>
+                <div class="login-heading">
+                    <img src="./images/MasKINGGG.jpg" alt="">
+                    <h1>MEDCARE</h1>
+                </div>
+
+                <div class="login-start">
+                    <button class="sgn-btn">Sign up</button>
+                <p>Already have an account?<a href="#" class="lgn-btn">Log in</a></p>
+                </div>
+             
+            </div>
+        </div>
+
+
+    <!--Login direct info-->
+        <div class="login-containerB">
+            <div class="login-box-details">
+
+                <div class="exitModalB">
+                    <a href="#" class="backToMainA"><i class="fas fa-2x fa-angle-left"></i></a>
+                </div>
+
+                <div class="login-top-images">
+                    <img src="./images/log.png" alt="">
+                </div>
+
+                <form class="logToForm">
+
+                    <label for="emailaddress">Email/Username</label>
+                    <input type="email" name="emailaddress" id="emailAdd" required>
+                    <label for="paswordd">Password</label>
+                    <input type="password" name="paswordd" id="passordd" required>
+
+                    <div class="socmed-buttons">
+                        <button class="logSoc" id="logg" onclick="login()">Log in</button>
+                        <button id="signmeup" class="sup" onclick="signup()">Sign up</button>
+                        <p>----- OR -----</p>
+                        <button id="googleBtn">Log in with Google</button>
+                        <button>Log in with Facebook</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+
+
+        <!--PATIENTS REQUEST FORM-->
+        <div class="patientsForm">
+            <div class="formsPages">
+                <form method="POST" class="patientInfo">
+                        <h1>Patients Request Form</h1>
+        
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="firstname" id="fname" required>
+        
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname" id="lname" required>
+        
+                        <label for="age">Age</label>
+                        <input type="number" name="age" id="age" required>
+        
+                        <label for="bday">Birthday</label>
+                        <input type="date" name="bday" id="bday" required>
+        
+                        <label for="cs">Civil Status</label>
+                        <input type="text" name="cs" id="status">
+        
+                        <label for="add">Address</label>
+                        <input type="text" name="add" id="address" required>
+        
+                        <label for="mail">Email</label>
+                        <input type="email" name="mail" id="emai" required>
+
+                        <label for="condition">Health status</label>
+                        <input type="text" name="condition">
+        
+        
+                        <div class="sumitBtn">
+                            <button>Submit</button>
+                            <button class="exitReqestForm">Cancel</button>
+                        </div>
+                </form>
+            </div>
+        </div>
+
+        <!--More on us/ producs that we offer-->
+        
+        <div class="product" id="bout">
+            <div class="productContainer">
+                <div class="productWrapper">
+                    <div class="item active">
+                        
+                        <img src="./images/d.png" alt="" >
+                        <div class="caption">
+                            <button class="add">+</button><p></p><button  class="add">-</button>
+
+                            <button class="cancel">Cancel</button>
+                            <button>Buy now</button>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <img src="./images/1aa.png" alt="">
+                        <div class="caption">
+                            <button class="add">+</button><p></p><button  class="add">-</button>
+
+                            <button class="cancell">Cancel</button>
+                            <button>Buy now</button>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <img src="./images/1aaa.png" alt="">
+                        <div class="caption">
+                            <button class="add">+</button><p></p><button  class="add">-</button>
+
+                            <button class="cancelll">Cancel</button>
+                            <button>Buy now</button>
+                            <button>Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <!--SLIDER-->
+                <div class="sliderLeft"><</div>
+                                
+                <div class="sliderRight">></div>
+            </div>
+        </div>
+
+
+
+
+        <!--SERVICES THAT WE OFFER-->
+        <div class="servicesPage" id="serve">
+            <h1>WHAT DO WE OFFER?</h1>
+
+            <div class="serviceImages">
+                <div class="serviceA">
+                    <img src="./images/ServiceAA.png" alt="">
+                    <li>We offer online appointments</li>
+                    <li>We process request online</li>
+                </div>
+
+                <div class="serviceB">
+                    <img src="./images/ServiceB.png" alt="">
+                    <li>We offer online medicines</li>
+                    <li>We are connected to your nearest hospitals</li>
+                </div>
+
+                <div class="serviceC">
+                    <img src="./images/ServiceC.png" alt="">
+                    <li>Only for online consultation</li>
+                    <li> We have online specialist</li>
+                </div>
+            </div>
+        </div>
+
+        <!--ABOUT THE PRODUCT-->
+        <div class="aboutContainer" id="boutus">
+            <h1>WHAT'S WITH US?</h1>
+
+            <div class="aboutBody">
+                <div class="aboutDescription">
+                    <p>Welcome to <b>MedCare!</b>
+                        MedCare provides you an online checkup/medical examination with the guidance of a doctor which is available on that time or day.  MedCare Allows you to talk to the doctors as if it's like a face to face checkup wherein there's a live talking with the doctor. This MedCare is hasslefree on going to the hospital in this time of pandemic, also this MedCare is a timely relevant website that can be used for your future needs. The idea of making this MedCare is to bring you  a doctor to guide and examine you even though you're at home you just need only to sign up and provide your details for the records, then call the doctor. After this pandemic MedCare will still bring you the services especially for those people that are really busy, persons with disabilities that's hard to travel to go to the hospitals and even to some grandparents that can't walk anymore. This MedCare is free to access all you need is to have a stable internet connection when doing an online checkup to get better advice and right prescription.The advantage of MedCare is that it’s accessible wherever or whenever you are.</p>
+                </div>
+                
+                <div class="imageAbout">
+                    <img src="./images/undraw_Online_world_re_h4cb.svg"alt="">
+
+                </div>
+            </div>
+        </div>
+
+        <!--Community-->
+        <div class="communityContainer" id="process">
+            <h1>How to process your request?</h1>
+            <div class="slider">
+                <div class="slide slide1">
+                    <div class="captions">
+                        <h2>Step1</h2>
+                        <p>Click “Start” to continue to sign up section.</p>
+                    </div>
+                </div>
+
+                <div class="slide slide2">
+                    <div class="captions">
+                        <h2>Step2</h2>
+                        <p>.Click “Sign up” to create an account or sign up with your google account or facebook. Already signed up. Then click log in.</p>
+                    </div>
+                </div>
+
+                <div class="slide slide3">
+                    <div class="captions">
+                        <h2>Step3</h2>
+                        <p>After signing up, fill the patients request form and wait for the email confirmation of your requests. Note email confirmation will be delivered within 24 hours.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="slide slide4">
+                    <div class="captions">
+                        <h2>Step4</h2>
+                        <p>After an email confirmation of your requests , you must prepare for the schedule your consultation.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <!--Contacts-->
+        <div class="contactContainer" id="contact">
+            <img src="./images/coverC.png" alt="">
+
+            <div class="contact-forms">
+                <div class="contact-title">
+                    <h1>Let's talk!</h1>
+                    <p>Get intouch with us</p>
+                </div>
+
+                <form action="" class="contactInfos">
+                    <label for="name" class="labels">Name</label>
+                    <input type="text" name="name">
+                    <label for="emailC" class="labels">Email</label>
+                    <input type="email" name="emailC">
+                    <label for="messages" class="labelTA">Message</label>
+                    <textarea name="messages" id="textareaField" cols="30" rows="7" placeholder="type here..."></textarea>
+                    <div class="submit-btn">
+                        <button class="contSub">Submit message</button>
+                    </div>
+                </form>
+
+                <div class="contact-icons">
+                    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-auth.js"></script>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="./coverFunct.js"></script>
+    <script src="./userforms.js"></script>
+
+</body>
+</html>

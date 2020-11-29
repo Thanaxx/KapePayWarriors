@@ -1,0 +1,40 @@
+.servicesPage{
+    min-height: 100vh;
+    padding: 100px;
+}
+
+.serviceImages{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+.servicesPage h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0 0 0;
+    background:linear-gradient(to left, #8b8b8b, #2D332D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.serviceImages img{
+    width: 100%;
+    height: 90%;
+    border-radius: 7px;
+    box-shadow: 3px 2px 7px #353535c5;
+}
+.serviceA{
+    flex: 1;
+    margin: 0 20px;
+}
+.serviceB{
+    flex: 1;
+    margin: 0 20px;
+}
+.serviceC{
+    flex: 1;
+    margin: 0 20px;
+}
+.serviceImages li{
+    text-align: justify;
+}

@@ -1,0 +1,110 @@
+.communityContainer{
+    min-height: 100vh;
+    font-family: sans-serif;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.communityContainer .slider{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 500%;
+    height: 100%;
+    float: left;
+    animation: animate 20s linear infinite;
+}
+.communityContainer .slider .slide{
+    width: 10%;
+    height: 80%;
+    float: left;
+    position: relative;
+
+}
+.captions{
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    right: 60px;
+    padding: 5px 30px;
+    background-color: rgb(131, 131, 131);
+    box-sizing: border-box;
+}
+.captions h2{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: rgb(214, 214, 214);
+    margin-bottom: 5px;
+}
+.captions p{
+    color: #ffffff;
+}
+.communityContainer h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0;
+    background:linear-gradient(to left, #8b8b8b, #2D332D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.slide.slide1{
+    background: url("./images/step10.png");
+    background-size: cover;
+    background-position: center;
+    margin: 100px 340px;
+    box-shadow: 3px 2px 7px #353535c5;
+}
+.slide.slide2{
+    background: url("./images/step2.png");
+    background-size: cover;
+    background-position: center;
+    margin: 100px 340px;
+    box-shadow: 3px 2px 7px #353535c5;
+}
+.slide.slide3{
+    background: url("./images/step4.png");
+    background-size: cover;
+    background-position: center;
+    margin: 100px 340px;
+    box-shadow: 3px 2px 7px #353535c5;
+}
+.slide.slide4{
+    background: url("./images/step5.png");
+    background-size: cover;
+    background-position: center;
+    margin: 100px 340px;
+    box-shadow: 3px 2px 7px #353535c5;
+}
+
+
+@keyframes animate{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+
+}
